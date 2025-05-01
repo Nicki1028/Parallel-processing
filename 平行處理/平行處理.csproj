@@ -36,8 +36,8 @@
     <Reference Include="CSV1">
       <HintPath>..\..\CSV1\CSV1\bin\Debug\CSV1.dll</HintPath>
     </Reference>
-    <Reference Include="StreamLibarary">
-      <HintPath>..\..\..\..\Downloads\StreamLibarary-master\StreamLibarary-master\StreamLibarary\bin\Debug\StreamLibarary.dll</HintPath>
+    <Reference Include="CSV_Library">
+      <HintPath>..\..\..\..\Downloads\CSV_Library-master\CSV_Library-master\CSV_Library\bin\Debug\CSV_Library.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -49,12 +49,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddData.cs" />
+    <Compile Include="MedianExtention.cs" />
     <Compile Include="MemberModel.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Input\MOCK_DATA-千萬.csv" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Output\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

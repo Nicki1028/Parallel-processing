@@ -5,6 +5,8 @@ VisualStudioVersion = 17.6.33801.468
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "平行處理", "平行處理\平行處理.csproj", "{BA930F9B-A603-4746-A9FA-4D398C22F90D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParallelProcessing", "ParallelProcessing\ParallelProcessing.csproj", "{B27E90EA-889B-448E-BC41-32C6FF847857}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{BA930F9B-A603-4746-A9FA-4D398C22F90D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA930F9B-A603-4746-A9FA-4D398C22F90D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA930F9B-A603-4746-A9FA-4D398C22F90D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B27E90EA-889B-448E-BC41-32C6FF847857}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B27E90EA-889B-448E-BC41-32C6FF847857}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B27E90EA-889B-448E-BC41-32C6FF847857}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B27E90EA-889B-448E-BC41-32C6FF847857}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
